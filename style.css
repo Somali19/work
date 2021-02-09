@@ -1,0 +1,99 @@
+
+body, html {
+    height: 100%;
+  }
+.bg{
+   
+    background-image: url("img/background.png") ;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.trending {
+    margin-top: 20px;
+}
+.home .container  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.trending , .top , .fertilizer , .sprayer , .pesticide , .cutter , .seed , .motor , .recent , .brand{
+    margin-bottom: 180px;
+}
+
+.float-right {
+    background-color: green;
+    color: white;
+}
+footer {
+    background-color: rgba(20, 20, 20, 0.849);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item a {
+    font-size: 14px;
+    
+}
+#wrapper {
+    width: 100%;
+    
+    position: relative;
+  }
+  
+  #carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  #carousel::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  #prev,
+  #next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    width: 180px;
+    height: 180px;
+    
+  }
+  
